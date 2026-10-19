@@ -38,9 +38,14 @@ The objective of this project is to analyze the factors influencing residential 
 ---
 
 ##  Repository Structure
-* `data/` – Contains raw and cleaned datasets.
-* `notebooks/` – Google Colab notebook(s) with full Python code, EDA, and ML models.
-* `dashboards/` – Interactive Power BI (`.pbix`) report file.
+
+* `data/`
+  * `Ames_Housing_Raw.csv` – Original uncleaned dataset.
+  * `Ames_Housing_Cleaned.csv` – Processed dataset after cleaning and feature engineering.
+* `notebooks/`
+  * `Ames_Housing_ML_Analysis.ipynb` – Google Colab notebook containing data preprocessing, exploratory data analysis (Seaborn), machine learning models (Scikit-learn), and evaluation.
+* `dashboards/`
+  * `Ames_Housing_Dashboard.pbix` – Interactive Power BI dashboard visualizing housing insights and model predictions.
 
 ---
 
